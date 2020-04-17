@@ -1,0 +1,266 @@
+body {
+
+	background-color: lightyellow;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+#logo{
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+/*reset básico*/
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; 
+		-moz-box-sizing: border-box; 
+			 box-sizing: border-box; 
+}
+
+	
+
+.menu{
+	
+	width: 100%;
+	height: 50px;
+	font-family: "Arial";
+
+}
+
+.menu ul{
+	
+	list-style: none;
+	position: relative;
+	text-align: right;
+
+}
+
+.menu ul li{
+	width: 125px;
+	display: inline-block;
+
+}
+.menu a{
+	padding: 15px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	color: black;
+}
+.menu a:hover{
+	/*color: #FFd700;
+	color: #c63939;*/
+	color: #ff1a1a;
+
+}
+
+
+
+#bt_menu{
+	display: none;
+	color: #2b2922;
+	
+	
+}
+
+label[for="bt_menu"]{
+	margin-top: -20px;
+	margin-left: -20px;
+	display: none;
+
+}
+
+@media(max-width: 767px){
+
+	label[for="bt_menu"]{
+		display: block;
+		
+	}
+
+	#bt_menu:checked ~ .menu{
+		margin-left: 0;
+
+	}
+
+	.menu{
+		margin-top: 4px; 
+		margin-left: -767px;
+		transition: all .4s;
+
+	}
+
+	.menu a{
+		color: white;
+	}
+
+	.menu a:hover{
+		color: #FFd700;
+	}
+
+	.menu ul{
+	background-color:  #2b2922;
+	background-position: right;
+	background-size: 10px;
+	background-repeat: no-repeat;
+	list-style: none;
+	position: relative;
+	text-align: right;
+	
+
+
+}
+
+	.menu ul li{
+		width: 100%;
+		float: none;
+	}
+
+
+
+
+	img{
+
+		max-width: 100%;
+		height: auto;
+	
+	}
+
+	
+}
+
+
+
+
+#Noticias{
+	
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: #2b2922 2px solid;
+	box-shadow: #2b2922 2px 2px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.imgNoticias{
+	margin-bottom: 10px;
+}
+
+#Sobre{
+	
+	display: flex;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+
+	
+}
+
+.imgSobre{
+	
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 150px;
+	height: 150px;
+
+}
+
+.info{
+
+	border: #2b2922 2px solid ;
+	box-shadow: #2b2922 2px 2px 2px;
+	width: 12cm;
+	margin-left: 5px;
+	margin-top: 11px;
+	margin-bottom: 5px;
+	font-family: Arial;
+	
+}
+
+#contato{
+	
+	display: flex;
+	margin-top: 70px;
+	margin-left: 20px;
+	margin-right: 10px;
+	font-family: Arial;
+
+	
+}
+
+.imgContato{
+	
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 350px;
+	height: 350px;
+
+}
+
+.button{
+	background-color:lightcoral;
+	border: #2b2922 1px solid;
+	width: 50px;
+	height: 25px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	box-shadow: lightcoral 2px 2px 2px;
+	font-family: Arial;
+
+
+}
+
+#SaibaMais{
+	display: flex;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.links{
+	font-size: 15px;
+	color: #070601;
+	margin-left: 5px;
+	text-decoration: underline; 
+	
+}
+.divLink{
+	margin-left: 75px;
+	margin-top: -50px;
+	margin-bottom: 20px;
+}
+
+/*Footer*/
+footer{
+	margin-top: 7px;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	background:rgb(8, 0, 0);
+	font-size: 18px;
+}
+i{
+	font-size: 30px;
+	margin:20px;
+}
+
+.linkRede{
+	color:white;
+}
+
